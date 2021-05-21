@@ -9,6 +9,10 @@ Converts 1 or many files to webp.
 - Install nodejs
 - Delete all files in the input and output folders
 - Copy your jpg images for conversion into the input folder
+- install the necessary libraries via npm install
+```
+npm install
+```
 - Open terminal/dos/shell/cli and run comman node convert
 ```
 node convert
