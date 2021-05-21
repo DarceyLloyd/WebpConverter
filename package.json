@@ -1,6 +1,6 @@
 {
   "name": "webpconverter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "- Install nodejs\r - Delete all files in the input and output folders\r - Copy your jpg images for conversion into the input folder\r - Open terminal/dos/shell/cli and run comman node convert\r ```\r node convert\r ```",
   "main": "convert.js",
   "scripts": {

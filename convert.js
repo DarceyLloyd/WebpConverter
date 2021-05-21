@@ -6,14 +6,21 @@ const path = require('path');
 var spawn = require('child_process').spawn;
 let { getFiles} = require("./libs");
 
-
 console.clear();
 
-let exe = path.resolve("./cwebp.exe");;
-let quality = 80; // 0 = bad, 100 = good, typical values are 70 to 80
+let exe = path.resolve("./cwebp.exe");
+let quality = 80; // 0 = bad, 100 = best, best values are between 70 to 80
 
 start();
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+
+
+
+
+
 
 
 async function start() {

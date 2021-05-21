@@ -19,8 +19,15 @@ node convert
 <br><br>
 
 ## <b>Options</b>
-The compression is set to 80, if you want to change this open file convert.js go to line 13 and change the value.
+The compression is set to 80, if you want to change this open file convert.js go to line 12 and change the value.
+
+Range is 0 to 100
+
+- 0 (worst / fastest)
+- 100 (best / longest)
+
+Typical values are 70 to 80.
 
 ```
-let quality = 80; // 0 = bad, 100 = good, typical values are 70 to 80
+let quality = 80; // 0 = bad, 100 = best, best values are between 70 to 80
 ```
