@@ -1,0 +1,26 @@
+# <b>Webp Converter</b>
+
+Converts 1 or many files to webp.
+
+<br>
+
+## <b>Usage</b>
+
+- Install nodejs
+- Delete all files in the input and output folders
+- Copy your jpg images for conversion into the input folder
+- Open terminal/dos/shell/cli and run comman node convert
+```
+node convert
+```
+
+- Collect the converted files from the output folder
+
+<br><br>
+
+## <b>Options</b>
+The compression is set to 80, if you want to change this open file convert.js go to line 13 and change the value.
+
+```
+let quality = 80; // 0 = bad, 100 = good, typical values are 70 to 80
+```

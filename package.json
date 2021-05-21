@@ -1,0 +1,25 @@
+{
+  "name": "webpconverter",
+  "version": "1.0.0",
+  "description": "- Install nodejs\r - Delete all files in the input and output folders\r - Copy your jpg images for conversion into the input folder\r - Open terminal/dos/shell/cli and run comman node convert\r ```\r node convert\r ```",
+  "main": "convert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarceyLloyd/WebpConverter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarceyLloyd/WebpConverter/issues"
+  },
+  "homepage": "https://github.com/DarceyLloyd/WebpConverter#readme",
+  "dependencies": {
+    "aftc-node-tools": "^0.7.18",
+    "fs-extra": "^9.1.0",
+    "utf8": "^3.0.0"
+  }
+}
