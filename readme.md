@@ -2,13 +2,16 @@
 
 Converts 1 or many files to webp.
 
+NOTE: If your converting more than 4000 use python, node will just get slower and slower and slower.
+TODO: Maybe make multi threaded node and python versions of this utility... But then again, maybe not...
+
 <br>
 
-## <b>Usage</b>
+## <b>NodeJS version Usage</b>
 
 - Install nodejs
 - Delete all files in the input and output folders
-- Copy your jpg images for conversion into the input folder
+- Copy your jpg or png images for conversion into the input folder
 - install the necessary libraries via npm install
 ```
 npm install
@@ -34,4 +37,17 @@ Typical values are 70 to 80.
 
 ```
 let quality = 80; // 0 = bad, 100 = best, best values are between 70 to 80
+```
+
+<br><br><hr>
+
+## <b>Pthon version Usage</b>
+
+- Make sure you have python installed
+- Set webpQuality variablein convert.py (save)
+- Delete all files in the input and output folders
+- Copy your jpg or png images for conversion into the input folder
+- run the following command from the project folder root folder
+```
+py convert.py
 ```
